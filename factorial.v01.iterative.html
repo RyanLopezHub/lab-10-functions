@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+      function factorial(n) {
+        //An iterative example of the factorial function
+        var total = 1;
+        for (i = 0; i < n; i = i + 1) {
+          total = total * (n - i);
+          //First time total = 1
+          //increment tottal up to //
+        }
+        return total;
+          // return the FINAL vaule of total
+      }
+
+      var userstring = prompt("Number please");
+      var usernum = parseInt(userstring);
+
+      console.log(factorial(usernum));
+    </script>
+  </body>
+</html>
